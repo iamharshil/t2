@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #01041b;
+}
+
+.custom-file-upload {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  min-height: 152px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: default !important;
+  padding: 1.5rem !important;
+  border-radius: 6px !important;
+}
+
+.custom-file-upload .text {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.custom-file-upload input {
+  display: none !important;
+}
+
+.custom-file-upload-placeholder {
+  color: #a6a8ba !important;
+}
+
+.preview-box {
+  max-height: 150px !important;
+  border-radius: 6px !important;
+  border: 1px solid #a6a8ba !important;
+}
+.preview-close {
+  position: absolute !important;
+  width: 25px !important;
+  /* color: #ffffff !important; */
+  border: 1px solid transparent !important;
+  /* background-color: black !important; */
+  top: 0px !important;
+  right: 15px !important;
+  height: 25px !important;
+  border-radius: 6px !important;
+  text-align: center !important;
+  line-height: 0 !important;
+  opacity: 0.6 !important;
+  transition: all 0.2s !important;
+  z-index: 99;
+}
+
+.add-moreRing {
+  width: 80px !important;
+  height: 80px !important;
+  /* border: 2px dashed #acaebd; */
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer !important;
+}
+
+/* Dark-theme */
+.img-uploader-main-dark {
+  background-color: black;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.custom-file-upload-borderBack-dark {
+  background-color: #242526 !important;
+  border: none !important;
+}
+
+.preview-close-dark {
+  background-color: black !important;
+  color: #ffffff !important;
+}
+
+.preview-close-dark:hover {
+  border: 1px solid #2c315b !important;
+  opacity: 1 !important;
+}
+
+.add-moreRing-dark {
+  border: 2px dashed #acaebd;
+}
+
+.add-moreRing-dark i {
+  font-size: 32px !important;
+  color: #acaebd !important;
+  cursor: pointer !important;
+}
+
+/* Light-theme */
+.img-uploader-main-light {
+  background-color: white;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.custom-file-upload-borderBack-light {
+  background-color: #f5f5f4 !important;
+  border: none !important;
+}
+
+.preview-close-light {
+  background-color: #ffffff !important;
+  color: black !important;
+}
+
+.preview-close-light:hover {
+  border: 1px solid white !important;
+  opacity: 1 !important;
+}
+
+.add-moreRing-light {
+  border: 2px dashed black;
+}
+
+.add-moreRing-light i {
+  font-size: 32px !important;
+  color: black !important;
+  cursor: pointer !important;
+}
+
+/* Gray-theme */
+.img-uploader-main-gray {
+  background-color: #1d1d1d;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.custom-file-upload-borderBack-gray {
+  background-color: #444444 !important;
+  border: none !important;
+}
+
+.preview-close-gray {
+  background-color: #444444 !important;
+  color: white !important;
+}
+.preview-close-gray:hover {
+  border: 1px solid #1d1d1d !important;
+  opacity: 1 !important;
+}
+
+.add-moreRing-gray {
+  border: 2px dashed #1d1d1d;
+}
+
+.add-moreRing-gray i {
+  font-size: 32px !important;
+  color: #1d1d1d !important;
+  cursor: pointer !important;
+}

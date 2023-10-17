@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #0d1637;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #01041b;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #ffffff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 16px;
+}
+
+.custum-file-upload-borderBack {
+  background-color: #2c315b !important;
+  border: none !important;
+}
+
+.custum-file-upload {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  min-height: 152px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: default !important;
+  padding: 1.5rem !important;
+  border-radius: 6px !important;
+}
+
+.custum-file-upload-borderBack {
+  background-color: #ebf5f9 !important;
+  border: 1px solid #41a6bd !important;
+}
+
+.custum-file-upload-placeholder {
+  font-size: 40px !important;
+  color: #41a6bd !important;
+}
+
+.custum-file-upload .text {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.custum-file-upload input {
+  display: none !important;
+}
+
+.custum-file-upload {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  min-height: 152px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: default !important;
+  padding: 1.5rem !important;
+  border-radius: 6px !important;
+}
+
+.custum-file-upload-borderBack {
+  background-color: #2c315b !important;
+  border: none !important;
+}
+
+.preview-box {
+  max-height: 150px !important;
+  border-radius: 6px !important;
+  border: 1px solid #a6a8ba !important;
+}
+.preview-close {
+  position: absolute !important;
+  width: 25px !important;
+  color: #ffffff !important;
+  border: 1px solid transparent !important;
+  background-color: #2c315b !important;
+  top: 0px !important;
+  right: 15px !important;
+  height: 25px !important;
+  border-radius: 6px !important;
+  text-align: center !important;
+  line-height: 0 !important;
+  opacity: 0.6 !important;
+  transition: all 0.2s !important;
+  z-index: 99;
+}
+
+.preview-close:hover {
+  border: 1px solid #2c315b !important;
+  opacity: 1 !important;
+}
+
+.add-moreRing {
+  width: 80px !important;
+  height: 80px !important;
+  border: 2px dashed #acaebd;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer !important;
+}
+
+.add-moreRing i {
+  font-size: 32px !important;
+  color: #acaebd !important;
+  cursor: pointer !important;
+}
